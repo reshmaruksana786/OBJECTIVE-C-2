@@ -17,6 +17,10 @@
 		83D321C123D1D0E400CFF77C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D321C023D1D0E400CFF77C /* main.m */; };
 		83D321CB23D1D0E400CFF77C /* OBJECTIVE_C_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D321CA23D1D0E400CFF77C /* OBJECTIVE_C_2Tests.m */; };
 		83D321D623D1D0E400CFF77C /* OBJECTIVE_C_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D321D523D1D0E400CFF77C /* OBJECTIVE_C_2UITests.m */; };
+		83D321E523D1D35300CFF77C /* Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D321E423D1D35300CFF77C /* Cycle.m */; };
+		83D321EA23D1D40900CFF77C /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D321E923D1D40900CFF77C /* ParkingLot.swift */; };
+		83D321ED23D1D77100CFF77C /* Bike.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D321EC23D1D77100CFF77C /* Bike.m */; };
+		83D321EF23D1D78400CFF77C /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D321EE23D1D78400CFF77C /* Wheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,13 @@
 		83D321D123D1D0E400CFF77C /* OBJECTIVE-C 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OBJECTIVE-C 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D321D523D1D0E400CFF77C /* OBJECTIVE_C_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJECTIVE_C_2UITests.m; sourceTree = "<group>"; };
 		83D321D723D1D0E400CFF77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D321E323D1D35300CFF77C /* Cycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cycle.h; sourceTree = "<group>"; };
+		83D321E423D1D35300CFF77C /* Cycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cycle.m; sourceTree = "<group>"; };
+		83D321E623D1D3C000CFF77C /* OBJECTIVE-C 2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OBJECTIVE-C 2-Bridging-Header.h"; sourceTree = "<group>"; };
+		83D321E923D1D40900CFF77C /* ParkingLot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
+		83D321EB23D1D77100CFF77C /* Bike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bike.h; sourceTree = "<group>"; };
+		83D321EC23D1D77100CFF77C /* Bike.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bike.m; sourceTree = "<group>"; };
+		83D321EE23D1D78400CFF77C /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +129,13 @@
 				83D321BF23D1D0E400CFF77C /* Info.plist */,
 				83D321C023D1D0E400CFF77C /* main.m */,
 				83D321B723D1D0E300CFF77C /* OBJECTIVE_C_2.xcdatamodeld */,
+				83D321E323D1D35300CFF77C /* Cycle.h */,
+				83D321E423D1D35300CFF77C /* Cycle.m */,
+				83D321E623D1D3C000CFF77C /* OBJECTIVE-C 2-Bridging-Header.h */,
+				83D321E923D1D40900CFF77C /* ParkingLot.swift */,
+				83D321EB23D1D77100CFF77C /* Bike.h */,
+				83D321EC23D1D77100CFF77C /* Bike.m */,
+				83D321EE23D1D78400CFF77C /* Wheel.swift */,
 			);
 			path = "OBJECTIVE-C 2";
 			sourceTree = "<group>";
@@ -207,6 +225,7 @@
 				TargetAttributes = {
 					83D321A723D1D0E300CFF77C = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					83D321C523D1D0E400CFF77C = {
 						CreatedOnToolsVersion = 11.1;
@@ -270,10 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D321EF23D1D78400CFF77C /* Wheel.swift in Sources */,
+				83D321E523D1D35300CFF77C /* Cycle.m in Sources */,
 				83D321C123D1D0E400CFF77C /* main.m in Sources */,
 				83D321B923D1D0E300CFF77C /* OBJECTIVE_C_2.xcdatamodeld in Sources */,
 				83D321B323D1D0E300CFF77C /* ViewController.m in Sources */,
+				83D321ED23D1D77100CFF77C /* Bike.m in Sources */,
 				83D321AD23D1D0E300CFF77C /* AppDelegate.m in Sources */,
+				83D321EA23D1D40900CFF77C /* ParkingLot.swift in Sources */,
 				83D321B023D1D0E300CFF77C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBJECTIVE-C 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,6 +475,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BRN.OBJECTIVE-C-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OBJECTIVE-C 2/OBJECTIVE-C 2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBJECTIVE-C 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,6 +495,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BRN.OBJECTIVE-C-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OBJECTIVE-C 2/OBJECTIVE-C 2-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -474,6 +504,7 @@
 		83D321DE23D1D0E400CFF77C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBJECTIVE-C 2Tests/Info.plist";
@@ -493,6 +524,7 @@
 		83D321DF23D1D0E400CFF77C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBJECTIVE-C 2Tests/Info.plist";
@@ -512,6 +544,7 @@
 		83D321E123D1D0E400CFF77C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBJECTIVE-C 2UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -529,6 +562,7 @@
 		83D321E223D1D0E400CFF77C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "OBJECTIVE-C 2UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
